@@ -3,7 +3,7 @@ import json
 # import keras
 import requests
 import streamlit as st 
-from streamlit_lottie import st_lottie# Import necessary libraries
+# from streamlit_lottie import st_lottie # Import necessary libraries
 from tensorflow.keras.models import load_model
 
 # Load the model globally
@@ -30,17 +30,17 @@ def load_model_once():
 model = load_model_once()
  
     
-def load_lottieurl(url:str):
-    r = requests.get(url)
-    if r.status_code != 200:
-        return None
-    return r.json()
+# def load_lottieurl(url:str):
+#     r = requests.get(url)
+#     if r.status_code != 200:
+#         return None
+#     return r.json()
 
-lottie_anim = load_lottieurl("https://lottie.host/e066955b-f983-46ad-9e40-caa3b8c99288/fG1IT9DrVy.json")
+# lottie_anim = load_lottieurl("https://lottie.host/e066955b-f983-46ad-9e40-caa3b8c99288/fG1IT9DrVy.json")
 
 
 
-st_lottie(lottie_anim,speed= 2 , height=350, width=350, key=None)
+# st_lottie(lottie_anim,speed= 2 , height=350, width=350, key=None)
 
 # Page setup
 
