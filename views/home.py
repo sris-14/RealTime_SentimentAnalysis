@@ -12,7 +12,7 @@ def home_pg():
         - **Live Capture:** Perform real-time analysis using your webcam.
             """)
        
-    st.write("[CODE LINK](https://github.com/sris-14/Real_Time_Sentiment_Analysis)")
+    st.write("[CODE LINK](https://github.com/sris-14/RealTime_SentimentAnalysis)")
 
 
 home_pg()
